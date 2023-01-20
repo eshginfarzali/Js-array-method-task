@@ -174,6 +174,7 @@ console.log(fullNames);
 
 
 
+
 // Task 10. Sum array element and index. [4,5,6]=>[4,6,8]
 /*
 const arr = [4,5,6];
@@ -185,12 +186,14 @@ console.log(newArr);
 
 
 
+
 // Task 11. Array element multiple 2. [2,3,4]=> [4,6,8]
 /*
 const arr = [2,3,4];
 const newArr = arr.map((e=> e*2));
 console.log(newArr);
 */
+
 
 
 
