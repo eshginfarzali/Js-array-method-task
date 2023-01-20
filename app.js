@@ -143,10 +143,13 @@ console.log(cleanArr);
 
 //Task 8 Capitalize first letter ['salam", sagol","yaxsi']=> ['Salam','Sagol", "Yaxsi']
 
+/*
 
+ const arr = ['salam','sagol','yaxsi'];
+const newArr = arr.map((word) => word.charAt(0).toUpperCase() + word.toLowerCase().slice(1));
+console.log(newArr);
     
-    
-    
+   */ 
 
 
 
@@ -155,6 +158,16 @@ console.log(cleanArr);
 
 // Task 9. Use the .map() method on the heros array to return a new array.
 
+/*
+let firstNames = ["super", "spider", "ant", "iron"]
+let lastName = "man";
+
+let fullNames = firstNames.map(firstName => firstName + lastName);
+
+console.log(fullNames);
+
+*/
+
 
 
 
@@ -162,24 +175,41 @@ console.log(cleanArr);
 
 
 // Task 10. Sum array element and index. [4,5,6]=>[4,6,8]
+/*
+const arr = [4,5,6];
+const newArr = arr.map((e, i)=> e+i);
+console.log(newArr);
+*/
 
 
 
 
 
 // Task 11. Array element multiple 2. [2,3,4]=> [4,6,8]
-
-
-
+/*
+const arr = [2,3,4];
+const newArr = arr.map((e=> e*2));
+console.log(newArr);
+*/
 
 
 
 // Task 12. Sum array element with array methods [1,4,5] => 10
+/*
+const arr = [1,4,5];
+ let sum = 0;
+  arr.map((e => sum=sum+e));
+ console.log(sum);
+
+*/
 
 
-
-
-
-
-// Task 13. Sum array element without ayn methods = (1,4,5] => 10
- 
+// Task 13. Sum array element without ayn methods = [1,4,5] => 10
+ /*
+const a =[1,4,5];
+let sum = 0;
+for(let i = 0; i<a.length; i++){
+    sum += a[i];
+ }
+ console.log(sum);
+ */
